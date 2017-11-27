@@ -1,0 +1,5 @@
+﻿:CONNECT 192.168.230.229 -U qa -P qa
+SELECT TSE_DateTime AS Date_Time, TSE_WU_DT AS Dregs_Tank_Weight
+FROM vw_slSD_SE
+WHERE TSE_DateTime BETWEEN '2015-12-01' AND '2015-12-16'
+ORDER BY TSE_DateTime ASC

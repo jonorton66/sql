@@ -1,0 +1,3 @@
+SELECT TEB_ProdOrder, TEB_BlendCode, TEB_FT_PFP, TEB_FEC_PFP_SP 
+FROM dbo.slTS_EB
+WHERE TEB_BlendCode = '604'
